@@ -10,9 +10,9 @@ public class main {
 		Double n3 = teclado.nextDouble();
 		Double calc = n1 + n2 + n3;
 		if (calc >= 60)
-		System.out.print ( "Aprovado");
+		System.out.print ( "Aprovado " +calc);
 		else
-		System.out.print ( "Reprovado");
+		System.out.print ( "Reprovado " +calc);
 	
 	}
 }
